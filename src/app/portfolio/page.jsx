@@ -9,33 +9,33 @@ const items = [
     id: 1,
     color: "from-red-300 to-blue-300",
     title: "ECommerce",
-    desc: "link below",
+    desc: "Screenshot",
     img: "/ecomerce1.png",
-    link: "https://lama.dev",
+    
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
     title: "Project Manager",
-    desc: "link below",
+    desc: "Screenshot",
     img: "/project manager1.png",
-    link: "https://lama.dev",
+    
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
     title: "Sales System",
-    desc: "link below",
+    desc: "Screenshot",
     img: "/sales project1.png",
-    link: "https://lama.dev",
+    
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "Encrypt Text",
-    desc: "link below",
+    desc: "Screenshot",
     img: "/encry 1.png",
-    link: "https://lama.dev",
+    
   },
 ];
 
@@ -74,9 +74,7 @@ const PortfolioPage = () => {
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
-                  </Link>
+                  
                 </div>
               </div>
             ))}
