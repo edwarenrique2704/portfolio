@@ -41,7 +41,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">About Me</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            I'm Edward, passionate about technology and web development. I specialize in building applications that solve real problems and improve user experience. My goal is to continue learning and growing in this exciting field.
+            Im Edward, passionate about technology and web development. I specialize in building applications that solve real problems and improve user experience. My goal is to continue learning and growing in this exciting field.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
